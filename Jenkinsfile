@@ -14,8 +14,7 @@ node{
    }
    stage('Slack Notification'){
     
-      slackSend 
-         baseUrl: 'https://hooks.slack.com/services/', 
+      slackSend baseUrl: 'https://hooks.slack.com/services/', 
          channel: '#learning', 
          color: 'good', 
          message: 'Welcome to Jenkins, Slack!', 
