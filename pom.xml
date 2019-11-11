@@ -7,7 +7,7 @@
 	<version>0.0.1</version>
 	<name>my-app</name>
 	
-	<!--  Demo on Github webhook -->
+	<!--  Demo on Github webhook testing -->
 
 	<url>http://maven.apache.org</url>	
 	<dependencies>
