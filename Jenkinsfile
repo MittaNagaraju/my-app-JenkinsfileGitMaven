@@ -12,4 +12,14 @@ node{
       thanks
       Nagaraju''', cc: '', from: '', replyTo: '', subject: 'Jenkins_Job', to: 'nagasai.mitta@gmail.com'
    }
+   stage('Slack Notification'){
+    
+      slackSend 
+         baseUrl: 'https://hooks.slack.com/services/', 
+         channel: '#learning', 
+         color: 'good', 
+         message: 'Welcome to Jenkins, Slack!', 
+         tokenCredentialId: 'slack-demo', 
+         username: 'naga86.iphone@gmail.com'
+   }
 }
